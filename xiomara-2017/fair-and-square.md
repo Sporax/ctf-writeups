@@ -22,7 +22,15 @@ As the title of the challenge suggests, the image is probably a square. So the d
     image.save("result.png")
 
 This is the result:
+![](https://github.com/Sporax/ctf-writeups/blob/master/xiomara-2017/result.png)
 
-Unfortunately, I got stumped at this point, but after the challenge ended someone told me it looks like piet. I used this piet interpreter
+Unfortunately, I got stumped at this point, but after the challenge ended someone told me it looks like piet. I used this piet interpreter: http://www.bertnase.de/npiet/npiet-execute.php
 
-And this is the flag
+And this is the output:
+> Tried hard?  :O
+I'll give you a clue NOW  :D
+PIL and Piet  :P
+Haha! You know that already. Is'nt it?  -_-
+Here's what you want:
+Xiomara{piLet}
+Enjoy!
