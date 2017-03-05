@@ -1,13 +1,15 @@
 # Fair and Square
 
-This file was provided for the challenge, along with a description of someone having no clue what to do with it. The file seems to contain pixel data, so I tried converting it into an image:
+[This file](https://github.com/Sporax/ctf-writeups/blob/master/xiomara-2017/fair-and-square.txt) was provided for the challenge, along with a description of someone having no clue what to do with it. 
+
+The file seems to contain pixel data, so I'm going to convert it to an image to get a flag out of it:
 
     $ python3
     from PIL import Image
     file = open('fair-and-square.txt').read()
     pixels = tuple(eval(file))
 
-Now that the pixels have been read, I needed to decide a file length, so I checked all possible lengths:
+Now that the pixels have been read, I need to decide a file length:
 
     lengths = [x for x in range(1, len(pixels)) if not len(pixels) % x]
     lengths = [(x, len(pixels) // x) for x in lengths]
@@ -25,9 +27,9 @@ This is the result:
 
 ![](https://github.com/Sporax/ctf-writeups/blob/master/xiomara-2017/result.png)
 
-Unfortunately, I got stumped at this point, but after the challenge ended someone told me it looks like piet. I used this piet interpreter: http://www.bertnase.de/npiet/npiet-execute.php
+Unfortunately, I got stumped at this point, but after the challenge ended someone told me it looks like piet code (an esolang). I used this to run it: http://www.bertnase.de/npiet/npiet-execute.php
 
-Finally, the output is:
+The output is:
 
     Tried hard?  :O
     I'll give you a clue NOW  :D
@@ -37,4 +39,4 @@ Finally, the output is:
     Xiomara{piLet}
     Enjoy!
 
-Flag: Xiomara{piLet}
+Xiomara{piLet}
