@@ -2,7 +2,7 @@
 
 [This file](https://github.com/Sporax/ctf-writeups/blob/master/xiomara-2017/fair-and-square.txt) was provided for the challenge, along with a description of someone having no clue what to do with it. 
 
-The file seems to contain pixel data, so I'm going to convert it to an image to get a flag out of it:
+It seems to contain pixel data, so I tried converting it to an image to get a flag out of it:
 
     $ python3
     from PIL import Image
