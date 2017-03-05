@@ -1,6 +1,6 @@
 # Fair and Square
 
-[This file](https://github.com/Sporax/ctf-writeups/blob/master/xiomara-2017/fair-and-square.txt) was provided for the challenge, along with a description of someone having no clue what to do with it. 
+[This file](https://github.com/Sporax/ctf-writeups/blob/master/2017/xiomara/fair-and-square/fair-and-square.txt) was provided for the challenge, along with a description of someone having no clue what to do with it. 
 
 It seems to contain pixel data, so I tried converting it to an image to get a flag out of it:
 
@@ -25,7 +25,7 @@ As the title of the challenge suggests, the image should be a square. So the dim
 
 This is the result:
 
-![](https://github.com/Sporax/ctf-writeups/blob/master/xiomara-2017/result.png)
+![](https://github.com/Sporax/ctf-writeups/blob/master/2017/xiomara/fair-and-square/result.png)
 
 Unfortunately, I got stumped at this point, but after the challenge ended someone told me it looks like piet code (an esolang). I used this to run it: http://www.bertnase.de/npiet/npiet-execute.php
 
